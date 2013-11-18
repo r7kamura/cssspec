@@ -1,5 +1,6 @@
+require "cssspec/line"
+require "cssspec/parser"
+require "cssspec/section"
+require "cssspec/stylesheet"
+require "cssspec/stylesheets_finder"
 require "cssspec/version"
-
-module Cssspec
-  # Your code goes here...
-end
