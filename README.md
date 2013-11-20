@@ -7,7 +7,33 @@ Generates style guide from stylesheets.
 gem install cssspec
 ```
 
-## Usage
+## Server
+```sh
+# shell-command
+rackup
+```
+
+    /*
+      # .button
+      basic button design
+
+      ```
+      <button class="button">
+        button
+      </button>
+
+      <button class="button danger">
+        danger
+      </button>
+      ```
+    */
+    .button {
+      ...
+    }
+
+![](http://dl.dropboxusercontent.com//u/5978869/image/20131126_005907.png)
+
+## Objects
 ```ruby
 stylesheets = Cssspec::StylesheetsFinder.find("stylesheets/**/*.scss")
 stylesheets.size #=> 2

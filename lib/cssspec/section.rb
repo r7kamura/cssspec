@@ -1,3 +1,4 @@
+require "active_support/core_ext/string/strip"
 require "nokogiri"
 require "redcarpet"
 
@@ -36,7 +37,7 @@ module Cssspec
     end
 
     def content
-      lines.join("\n")
+      lines.join("\n").strip_heredoc
     end
 
     def lines

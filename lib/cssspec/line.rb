@@ -31,7 +31,7 @@ module Cssspec
     end
 
     def stripped_content
-      @content.gsub(COMMENT_REGEXP, "").strip
+      @content.gsub(COMMENT_REGEXP, "").rstrip
     end
   end
 end

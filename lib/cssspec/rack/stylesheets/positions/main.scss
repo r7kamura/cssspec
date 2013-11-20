@@ -1,0 +1,43 @@
+@import "modules/mixin";
+
+.main-inner {
+  @include inner;
+  overflow: hidden;
+}
+
+.main-sidebar {
+  width: 20%;
+  margin-right: 2%;
+  float: left;
+}
+
+.main-sidebar-inner {
+  border: solid 4px #eee;
+  padding: .5em;
+}
+
+.main-sidebar ul {
+  list-style: none;
+}
+
+.main-content {
+  width: 78%;
+  float: left;
+}
+
+.main-content h1 {
+  padding: 20px 20px 0;
+}
+
+.main-content p,
+.main-content pre {
+  padding: 20px;
+}
+
+.main-section {
+  border: solid 4px #eee;
+}
+
+.main-section-iframe {
+  padding: 5px;
+}

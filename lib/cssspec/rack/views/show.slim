@@ -1,0 +1,5 @@
+- @stylesheet.sections.each do |section|
+  .main-section
+    == section.render
+    .main-section-iframe
+      iframe src="data:text/html,<style>#{scss(@stylesheet.path.read)}</style>#{section.code}"

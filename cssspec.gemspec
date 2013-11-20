@@ -16,10 +16,15 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "activesupport"
   spec.add_dependency "nokogiri"
+  spec.add_dependency "padrino"
   spec.add_dependency "redcarpet"
-  spec.add_development_dependency "activesupport"
+  spec.add_dependency "sass"
+  spec.add_dependency "sitespec"
+  spec.add_dependency "slim"
   spec.add_development_dependency "bundler"
+  spec.add_development_dependency "pry"
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rspec"
 end

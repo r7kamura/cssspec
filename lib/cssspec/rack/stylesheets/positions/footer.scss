@@ -1,0 +1,19 @@
+@import "modules/mixin";
+
+.footer-inner {
+  @include inner;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer-powers,
+.footer-copyright {
+  margin: 0;
+}
+
+.footer-powers {
+  font-size: 80%;
+}

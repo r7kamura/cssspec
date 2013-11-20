@@ -1,5 +1,6 @@
 require "cssspec/line"
 require "cssspec/parser"
+require "cssspec/rack/application"
 require "cssspec/section"
 require "cssspec/stylesheet"
 require "cssspec/stylesheets_finder"
